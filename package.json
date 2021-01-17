@@ -1,0 +1,23 @@
+{
+  "name": "inertia-parallax.js",
+  "version": "1.0.0",
+  "description": "inertia parallax scrolling",
+  "main": "dist/inertia-parallax.js",
+  "author": "Katsushi OUGI <ougi@to-r.net>",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/plugin-external-helpers": "^7.12.1",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/plugin-syntax-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.11",
+    "rollup": "^2.36.2",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-uglify": "^6.0.4"
+  }
+}
